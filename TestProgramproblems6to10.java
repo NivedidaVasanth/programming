@@ -5,10 +5,11 @@ public class TestProgramproblems6to10 {
 
     public static void main(String[] args) {
        // problem6consecutivenumbersum(new int[] {2, 5, 6, 10,23}, 16);
+
+       // problem7_twosum(new int[]{1,2,3,4,5,6}, 3);
+        problem8_subarrays(new int[]{5, 4, 3,1,8,6}, 9);
         //problem9printingstar(10);
-        //problem10printingplus(10);
-        //problem7_twosum(new int[]{2,8,10,16,24}, 12);
-        problem8_subarrays(new int[]{1, 2, 3, -2, 2}, 3);
+       // problem10printingplus(10);
 
     }
 
@@ -53,7 +54,8 @@ public class TestProgramproblems6to10 {
         for (int i=0; i < arr.length; i++){
 
             sum +=arr[i];
-            if (sum==target)count++;
+            if (sum==target)
+                count++;
             if (map.containsKey(sum-target)){
                         count += map.get(sum - target);
                         map.put(sum,map.getOrDefault(sum, 0) +1);

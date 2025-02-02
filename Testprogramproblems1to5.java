@@ -3,16 +3,12 @@ import java.util.Map;
 
 public class Testprogramproblems1to5 {
     public static void main(String[] args) {
-      //  program1_findingcharacterscount("nivaashnidhi");
-       // System.out.println();
-       // program2fibonacci(10);
-       // System.out.println();
-       // program3factorial(6);
-      //  System.out.println();
-      //  program4reversethestring("nivedida");
-       // System.out.println();
-        program5primenumber(15);
-        System.out.println();
+        //program1_findingcharacterscount("nivaashnidhi");
+        //program2fibonacci(10);
+         // program3factorial(6);
+        //program4reversethestring("nivedida");
+         program5primenumber(15);
+
 
 
 
